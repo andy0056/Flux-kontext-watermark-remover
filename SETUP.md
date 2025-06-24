@@ -11,20 +11,20 @@
 ### For Local Development
 
 1. Copy `.env.local.example` to `.env.local`:
-   ```bash
+   \`\`\`bash
    cp .env.local.example .env.local
-   ```
+   \`\`\`
 
 2. Fill in your Fal.ai API key:
-   ```env
+   \`\`\`env
    FAL_KEY=your_actual_fal_api_key_here
    DEMO_MODE=false
-   ```
+   \`\`\`
 
 3. (Optional) Add Vercel Blob token for file uploads:
-   ```env
+   \`\`\`env
    BLOB_READ_WRITE_TOKEN=your_vercel_blob_token
-   ```
+   \`\`\`
 
 ### For Production (Vercel)
 
@@ -47,14 +47,14 @@
 ## Installation & Running
 
 1. Install dependencies:
-   ```bash
+   \`\`\`bash
    npm install
-   ```
+   \`\`\`
 
 2. Run the development server:
-   ```bash
+   \`\`\`bash
    npm run dev
-   ```
+   \`\`\`
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
@@ -95,9 +95,9 @@
 ### Demo Mode
 
 If you want to test the UI without API calls:
-```env
+\`\`\`env
 DEMO_MODE=true
-```
+\`\`\`
 
 This will show placeholder results without making actual API calls.
 
