@@ -1,12 +1,13 @@
 {
-  "name": "my-v0-project",
+  "name": "watermark-removal-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "setup": "echo 'Please copy .env.local.example to .env.local and add your Fal.ai API key'"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
